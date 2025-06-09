@@ -1,0 +1,456 @@
+
+:root {
+    --fundo: linear-gradient(to top, hsl(180, 40%, 90%), hsl(180, 40%, 90%), hsl(180, 40%, 90%));
+    --h1: linear-gradient(to top, hsl(270, 100%, 60%), hsl(270, 100%, 90%), hsl(270, 100%, 60%));
+    --h2: linear-gradient(to top, hsl(270, 100%, 70%), hsl(270, 100%, 90%), hsl(270, 100%, 70%));
+    --h3: linear-gradient(to top, hsl(180, 50%, 65%), hsl(180, 50%, 85%), hsl(180, 50%, 65%));
+    --h4: linear-gradient(to top, hsl(260, 100%, 60%), hsl(270, 100%, 90%), hsl(270, 100%, 60%));
+    --headerP: linear-gradient(to top, hsl(295, 50%, 60%), hsl(295, 100%, 90%), hsl(295, 50%, 60%));
+    --GeralP: linear-gradient(to top, hsl(180, 47%, 70%), hsl(180, 47%, 90%), hsl(180, 47%, 70%));
+    --li: linear-gradient(to top, hsl(270, 100%, 60%), hsl(270, 100%, 90%), hsl(270, 100%, 60%));
+    --span: linear-gradient(to top, hsl(180, 47%, 40%), hsl(180, 47%, 90%), hsl(180, 47%, 40%));
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: var(--fundo);
+    margin: auto;
+    margin-top: 50px;
+    width: 1200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-image: var(--fundo);
+    border-radius: 50px;
+}
+
+.headerTop{
+    margin: auto;
+    border: black;
+    border-radius: 100px;
+}
+
+header h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image:  var(--h1);
+    text-align: center;
+    margin: 15px;
+}
+
+header h3{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: var(--headerP);
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.headerMid{ 
+    margin-left: 15px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerMid  .tópicos h4{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: var(--h4);
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: large;
+    color: black;
+    padding: 5px;
+}
+
+
+.headerMid  .tópicos ul{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: var(--headerP);
+    margin-bottom: 25px;
+    padding-left: 50px;
+    list-style: none;
+    font-size: large;
+}
+
+.headerMid  .tópicos a{
+    color: black;
+}
+
+.headerMid .ADD{
+    margin: 35px;
+}
+
+.headerMid .ADD strong{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: var(--h4);
+    font-size: large;
+}
+
+.headerBot{
+    margin: auto;
+    width: 1000px;
+}
+
+.headerBot h5{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: var(--h4);
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+
+.headerBot p{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: var(--headerP);
+    margin-bottom: 10px;
+    color: black;
+    font-size: larger;
+    text-align: center;
+    padding: 2px;
+}
+
+main{
+    background-image: var(--fundo);
+    border-radius: 50px;
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.SaúdeMental{
+    display: flex;
+    justify-content: space-around;
+}
+
+.DefiniçãoImportância{
+    width: 90%;
+}
+
+.Definição h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image:  var(--h1);
+    text-align: center;
+    margin: 15px;
+}
+
+.Definição p{
+    text-align: center;
+    font-size: larger;
+    background-image: var(--GeralP);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.DefiniçãoImportância ul{
+    list-style: none;
+}
+
+.Importância h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image:  var(--h1);
+    text-align: center;
+    margin-top: 75px;
+}
+
+.Importância p{
+    font-size: larger;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: var(--GeralP);
+    margin-top: 10px;
+    padding: 3px;
+}
+
+
+.SinaisSintomas h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image:  var(--h1);
+    text-align: center;
+    margin: 15px;
+}
+
+.SinaisSintomas ol li{
+    padding: 2px;
+    width: 390px;
+    font-size: larger;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    background-image: var(--li);
+    border: 1px solid black;
+    border-radius: 15px;
+    list-style: none;
+}
+
+.SinaisSintomas p{
+    width: 325px;
+    background-image: var(--GeralP);
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: larger;
+    padding: 2px;
+    margin-left: 135px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.ExercíciosPráticos{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Motivo{
+    width: 55%;
+}
+
+.Motivo h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image:  var(--h1);
+    text-align: center;
+    margin: 15px;
+    padding: 3px;
+}
+
+.Motivo ol{
+    width: 500px;
+    margin-top: 10px;
+    margin: auto;
+    font-size: larger;
+    text-align: left;
+}
+
+.Motivo li{
+    list-style: none;
+    margin-top: 15px;
+    background-image: var(--GeralP);
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.SiteE{
+    background-image: var(--GeralP);
+    border-radius: 40px;
+    width: 45%;
+}
+
+.SiteE h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image:  var(--h1);
+    text-align: center;
+    margin: 15px;
+    padding: 3px;
+}
+
+.SiteE a{
+    text-decoration: none;
+    color: hsl(300, 100%, 50%);
+}
+
+.SiteE img{
+    width: 400px;
+    margin-left: 70px;
+    border-radius: 1000px;
+}
+
+.SiteE figcaption{
+    font-size: larger;
+    width: 540px;
+    text-align: center;
+}
+
+.RecursosExternos{
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.RecursosExternos li{
+    list-style: none;
+}
+
+.ImportânciaOQueÉ{
+    width: 55%;
+}
+
+.ImportânciaOQueÉ h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image:  var(--h1);
+    text-align: center;
+    margin: 15px;
+    padding: 3px;
+}
+
+.OQueÉ{
+    margin-top: 100px;
+}
+
+.OQueÉ p{
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: larger;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    background-image: var(--GeralP);
+}
+
+.SiteR{
+    background-image: var(--GeralP);
+    border-radius: 50px;
+    width: 45%;
+}
+
+.SiteR h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image:  var(--h1);
+    text-align: center;
+    margin: 15px;
+    padding: 3px;
+}
+
+.SiteR img{
+    width: 400px;
+    margin-left: 70px;
+    border-radius: 1000px;
+}
+
+.SiteR a{
+    text-decoration: none;
+    color: hsl(300, 100%, 50%);
+}
+
+.SiteR figcaption{
+    font-size: larger;
+    width: 540px;
+    text-align: center;
+}
+
+.ImportânciaRE{
+    margin-top: 100px;
+}
+
+.ImportânciaRE p{
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-size: larger;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    background-image: var(--GeralP);   
+}
+
+footer{
+    background-image: var(--fundo);
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+.footerTop h1{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image:  var(--h1);
+    text-align: center;
+    margin: 15px;
+}
+
+.footerTop h2{
+    border: 2px solid black;
+    border-radius: 100px;
+    background-image: var(--h2);
+    text-align: center;
+    margin: 15px;
+}
+
+.pai{
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: var(--GeralP);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.SP{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+summary {
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+summary::marker {
+    color: hsl(180, 50%, 35%);
+}
+
+span{
+    padding: 5px;
+    background-image: var(--span);
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.pai[open] {
+    background-color: darkgray
+}
+
+details{
+    margin: 10px;
+}
+
+details [open]{
+    background-image: linear-gradient(to top, hsl(180, 50%, 65%), hsl(180, 50%, 85%), hsl(180, 50%, 65%));
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+footer p{
+    background-image: linear-gradient(to top, hsl(180, 50%, 65%), hsl(180, 70%, 85%), hsl(180, 50%, 65%));
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+footer li{
+    background-image: var(--h3);
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.filho{
+    margin-top: 20px;
+}
