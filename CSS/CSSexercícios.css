@@ -1,7 +1,8 @@
 :root{
-    --color1: ;
-    --color2: ;
-    --color3: ;
+    --color1: hsl(203, 18%, 80%);
+    --color2: hsl(203, 27%, 71%);
+    --color3: hsl(203, 37%, 64%);
+    --color4: hsl(203, 18%, 85%);
 }
 
 *{
@@ -45,8 +46,8 @@ header li h1{
 header a{
     color: black;
     text-decoration: none;
-    background-color: var(--color2);
+    background-color: var(--color4);
     padding: 10px;
     border: 1px solid black;
-    border-radius: 10px 0px;
+    border-radius: 0px 10px;
 }
