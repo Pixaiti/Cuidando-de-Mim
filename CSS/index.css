@@ -2,7 +2,7 @@
     --verde: hsl(128, 51%, 37%);
     --verdeEscuro: hsl(128, 51%, 25%);
     --branco: white;
-    --cinza: lightgray;
+    --cinza: rgba(211, 211, 211, 0.50);
     --preto: black;
 }
 
@@ -14,7 +14,7 @@
 }
 
 body{
-    width: 99vw;
+    width: 100%;
 }
 
 .titulo{
