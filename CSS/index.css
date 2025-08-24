@@ -10,7 +10,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: sans-serif;
 }
 
 body{
@@ -293,6 +293,5 @@ main{
     padding: 5px;
     line-height: 1.65;
 }
-
 
 
