@@ -71,8 +71,16 @@ const textosPT = {
     td17: "9. Como manter consistência sem desistir depois de alguns dias?",
     td18: "Comece pequeno, com 1 ou 2 hábitos fáceis, e vá aumentando aos poucos.",    
     td19: "10. Existe diferença entre autocuidado e egoísmo?",
-    td20: "Sim. Egoísmo é pensar só em si. Autocuidado é se cuidar para poder estar melhor consigo e com os outros."
-
+    td20: "Sim. Egoísmo é pensar só em si. Autocuidado é se cuidar para poder estar melhor consigo e com os outros.",
+    titleFooter1: "Hiper links",
+    footerSobre: "Sobre",
+    footerIntro: "Introdução",
+    footerAtiv: "Atividades e Exercícios Práticos",
+    footerAtivS: "Atividades e Exercícios Práticos (site)",
+    titleFooter2: "Contate-nos",
+    titleFooter3: "Sobre este site",
+    text1Footer3: "Código desenvolvido pelos autores.",
+    text2Footer3: "Imagens e textos de terceiros, usados apenas para fins educacionais.",
 };
 
 const textosEN = {
@@ -145,7 +153,17 @@ const textosEN = {
     td17: "9. How can I stay consistent without giving up after a few days?",
     td18: "Start small, with one or two easy habits, and gradually increase them.",
     td19: "10. Is there a difference between self-care and selfishness?",
-    td20: "Yes. Selfishness is thinking only about yourself. Self-care is taking care of yourself to be better for yourself and others."
+    td20: "Yes. Selfishness is thinking only about yourself. Self-care is taking care of yourself to be better for yourself and others.",
+    titleFooter1: "Hyperlinks",
+    footerSobre: "About",
+    footerIntro: "Introduction",
+    footerAtiv: "Exercises & Activities",
+    footerAtivS: "Exercises & Activities (website)",
+    titleFooter2: "Contact Us",
+    titleFooter3: "About the website",
+    text1Footer3: "Code developed by the authors.",
+    text2Footer3: "Third-party images and texts, used for educational purposes only.",
+
 };
 
 swapBtn.addEventListener("click", () => {
@@ -187,4 +205,15 @@ swapBtn.addEventListener("click", () => {
         document.getElementById(`td${i}`).textContent = textos[`td${i}`];
     }
 }
+    document.getElementById("title-footer1").textContent = textos.titleFooter1;
+    document.getElementById("footer-sobre").textContent = textos.footerSobre;
+    document.getElementById("footer-intro").textContent = textos.footerIntro;
+    document.getElementById("footer-ativ").textContent = textos.footerAtiv;
+    document.getElementById("footer-ativs").textContent = textos.footerAtivS;
+    document.getElementById("title-footer2").textContent = textos.titleFooter2;
+    document.getElementById("title-footer3").textContent = textos.titleFooter3;
+    for (let i = 1; i <= 2; i++) {
+        document.getElementById(`text${i}-footer3`).textContent = textos[`text${i}Footer3`];
+        document.getElementById(`text${i}-footer3`).textContent = textos[`text${i}Footer3`];
+    }
 });
