@@ -27,46 +27,34 @@ body{
 }
 
 header{
-    height: auto;
+    height: 200px;
     width: 100%;
 }
 
-header ul {
-    width: 100%;
-    height: auto; /* cresce conforme o conteúdo */
+header ul{
+    height: 120px;
     display: flex;
-    flex-wrap: wrap; /* quebra em várias linhas */
-    justify-content: center; /* centraliza */
+    justify-content: space-around;
     align-items: center;
     background-color: var(--verde);
     box-shadow: 1px 1px 15px;
-    gap: 10px;
-    padding: 15px;
-    box-sizing: border-box; /* garante que padding não estoure */
 }
-
-
-header ul li {
-    list-style: none;
-    flex: 0 1 auto; /* não estica demais, mas se adapta */
-    display: flex;
-    justify-content: center;
-}
-
 
 header ul img{
-    min-height: 80px;
-    height: 18vh;
+    height: 100px;
     transition: 2s;
 }
 
 header ul:hover{
     img{
-        min-height: 100px;
-        height: 22vh;
+        height: 150px;
         transition: 2s;
     }
     }
+
+header ul li{
+    list-style: none;
+}
 
 button{
     position: fixed;
@@ -98,7 +86,6 @@ main{
 }
 
 #sobre{
-    margin-top: 10vh;
     width: 80vw;
     box-shadow: 1px 1px 15px;
 }
@@ -161,7 +148,7 @@ main{
 }
 
 .ss p{
-    margin-left: 5vw;
+    margin-left: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -219,7 +206,7 @@ main{
 #atividades{
     display: grid;
     grid-template-columns: repeat(1);
-    width: 80vw;
+    width: 80%;
     background-color: var(--cinza);
 }
 
@@ -281,7 +268,7 @@ main{
     justify-content: space-between;
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 80%;
 }
 
 .faq div{
@@ -306,6 +293,7 @@ main{
 
 footer{
     background-color: var(--verdeEscuro);
+    height: 310px;
     width: 100%;
     margin-top: 100px;
     display: flex;
@@ -365,8 +353,7 @@ footer div a{
 }
 
 .footer3 img{
-    min-height: 70px;
-    height: 12vh;
+    height: 110px;
 }
 
 .footer3 p{
@@ -377,3 +364,28 @@ footer div a{
     display: flex;
     justify-content: center;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .item1 {grid-area: 1 / span 6;}
+    .item2 {grid-area: 2 / span 6;}
+    .item3 {grid-area: 3 / span 6;}
+    .item4 {grid-area: 4 / span 6;}
+    .item5 {grid-area: 5 / span 6;}
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .item1 {grid-area: 1 / span 6;}
+    .item2 {grid-area: 2 / span 1;}
+    .item3 {grid-area: 2 / span 4;}
+    .item4 {grid-area: 3 / span 6;}
+    .item5 {grid-area: 4 / span 6;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .item1 {grid-area: 1 / span 6;}
+    .item2 {grid-area: 2 / span 1;}
+    .item3 {grid-area: 2 / span 4;}
+    .item4 {grid-area: 2 / span 1;}
+    .item5 {grid-area: 3 / span 6;}
+  }
