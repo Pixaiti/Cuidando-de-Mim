@@ -37,7 +37,6 @@ header ul{
     justify-content: space-around;
     align-items: center;
     background-color: var(--verde);
-    box-shadow: 1px 1px 15px;
 }
 
 header ul img{
@@ -87,7 +86,6 @@ main{
 
 #sobre{
     width: 80vw;
-    box-shadow: 1px 1px 15px;
 }
 
 
@@ -123,7 +121,6 @@ main{
 }
 
 .ss{
-    box-shadow: 1px 1px 15px;
     width: 100%;
     background-color: var(--cinza);
 }
@@ -163,7 +160,6 @@ main{
 }
 
 .def{
-    box-shadow: 1px 1px 15px;
     background-color: var(--cinza);
     width: 100%;
 }
@@ -182,7 +178,6 @@ main{
 }
 
 .imp{
-    box-shadow: 1px 1px 15px;
     width: 100%;
     background-color: var(--cinza);
     display: flex;
@@ -206,7 +201,7 @@ main{
 #atividades{
     display: grid;
     grid-template-columns: repeat(1);
-    width: 80%;
+    width: 80vw;
     background-color: var(--cinza);
 }
 
@@ -228,6 +223,7 @@ main{
 
 .img{
     width: 100%;
+    margin:auto;
     text-align: center;
     padding-left: 7px;
     padding-right: 7px;
@@ -253,7 +249,6 @@ main{
 }
 
 #faq{
-    box-shadow: 1px 1px 15px;
     margin-top: 100px;
     width: 80vw;
     display: flex;
@@ -273,7 +268,6 @@ main{
 
 .faq div{
     width: 100%;
-    box-shadow: 1px 1px 15px;
     margin-top: 10px;
 }
 
