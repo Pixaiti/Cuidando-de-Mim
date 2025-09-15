@@ -221,6 +221,10 @@ main{
     text-align: center;
 }
 
+figure{
+    background-color: var(--cinza);
+}
+
 .img{
     width: 100%;
     margin:auto;
