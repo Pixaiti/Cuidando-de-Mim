@@ -213,12 +213,15 @@ main{
     background-color: var(--cinza);
     line-height: 1.65;
     text-align: center;
+    border-right: 11px solid var(--cinza);
 }
 
 #atividades .objetivo{
     background-color: var(--cinza);
     line-height: 1.65;
     text-align: center;
+    border-right: 11px solid var(--cinza);
+
 }
 
 figure{
@@ -229,8 +232,6 @@ figure{
     width: 100%;
     margin:auto;
     text-align: center;
-    padding-left: 7px;
-    padding-right: 7px;
     background-color: white;
     padding-bottom: 10px;
     img{
