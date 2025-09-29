@@ -27,12 +27,13 @@ body{
 }
 
 header{
-    height: 200px;
+    background-color: white;
     width: 100%;
+    position: fixed;
 }
 
 header ul{
-    height: 120px;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,16 +41,9 @@ header ul{
 }
 
 header ul img{
-    height: 100px;
+    height: 10vh;
     transition: 2s;
 }
-
-header ul:hover{
-    img{
-        height: 150px;
-        transition: 2s;
-    }
-    }
 
 header ul li{
     list-style: none;
@@ -85,6 +79,7 @@ main{
 }
 
 #sobre{
+    margin-top: 25vh;
     width: 80vw;
 }
 
