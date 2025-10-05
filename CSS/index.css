@@ -13,6 +13,10 @@
     font-family: sans-serif;
 }
 
+p{
+    font-size: 0.8rem;
+}
+
 body{
     width: 100%;
 }
@@ -20,7 +24,7 @@ body{
 .titulo{
     color: var(--branco);
     background-color: var(--verde);
-    padding: 5px;
+    padding: 0.5vw;
     font-size: xx-large;
     font-family: serif;
     text-align: center;
@@ -47,6 +51,7 @@ header ul img{
 
 header ul li{
     list-style: none;
+    font-size: 0.8rem;
 }
 
 button{
@@ -54,7 +59,7 @@ button{
     cursor: pointer;
     text-decoration: none;
     color: white;
-    padding: 6px 12px;
+    padding: 0.6vw 0.8vw;
     border: 2px solid black;
     border-radius: 500px;
     background-color: var(--verdeEscuro);
@@ -83,10 +88,22 @@ main{
     width: 80vw;
 }
 
+#sobre.show{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+p{
+    font-size: 1rem;
+}
+
+a{
+    font-size: 1rem;
+}
 
 #sobre p{
     background-color: var(--cinza);
-    padding: 5px;
+    padding: 0.5vw;
     line-height: 1.65;
 }
 
@@ -140,9 +157,9 @@ main{
 }
 
 .ss p{
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .direita{
@@ -201,6 +218,7 @@ main{
 }
 
 #atividades h1{
+    text-align: center;
     width: 80vw;
 }
 
@@ -250,12 +268,12 @@ figure{
 
 #faq{
     margin-top: 100px;
-    width: 80vw;
+    width: 80%;
     display: flex;
 }
 
 #faq h1{
-    width: 80vw;
+    width: 100%;
 }
 
 .faq{
@@ -281,13 +299,12 @@ figure{
 
 .faq div table{
     background-color: var(--cinza);
-    padding: 5px;
+    padding: 0.5vw;
     line-height: 1.65;
 }
 
 footer{
     background-color: var(--verdeEscuro);
-    height: 310px;
     width: 100%;
     margin-top: 100px;
     display: flex;
@@ -304,11 +321,11 @@ footer div{
 
 .footer1 h1{
     background-color: var(--verdeEscuro);
-    margin-bottom: 25px;
+    margin-bottom: 10%;
 }
 
 .footer1 p{
-    margin-bottom: 25px;
+    margin-bottom: 10%;
 }
 
 footer div a{
@@ -318,11 +335,11 @@ footer div a{
 
 .footer2 h1{
     background-color: var(--verdeEscuro);
-    margin-bottom: 75px;
+    margin-bottom: 25%;
 }
 
 .footer2 img{
-    height: 50px;
+    height: 5vh;
     margin-right: 10px;
 }
 
