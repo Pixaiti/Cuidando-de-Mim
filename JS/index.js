@@ -217,3 +217,16 @@ swapBtn.addEventListener("click", () => {
         document.getElementById(`text${i}-footer3`).textContent = textos[`text${i}Footer3`];
     }
 });
+
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+const elements = document.querySelectorAll('.reveal');
+
+elements.forEach(el => observer.observe(el));

@@ -34,6 +34,7 @@ header{
     background-color: white;
     width: 100%;
     position: fixed;
+    z-index: 1;
 }
 
 header ul{
@@ -374,4 +375,16 @@ footer div a{
 .footer-img{
     display: flex;
     justify-content: center;
+}
+
+.reveal{
+    opacity: 0;
+    transform: translateY(20vh);
+    transition: all 0.8s ease;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 0;
 }
