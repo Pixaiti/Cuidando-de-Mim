@@ -21,6 +21,10 @@ body{
     width: 100%;
 }
 
+section{
+    margin-bottom: 10vh;
+}
+
 .titulo{
     color: var(--branco);
     background-color: var(--verde);
