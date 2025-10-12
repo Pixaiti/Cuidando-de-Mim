@@ -6,7 +6,6 @@
     --preto: black;
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -27,30 +26,27 @@ body{
 }
 
 header{
-    height: 200px;
+    background-color: white;
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 header ul{
-    height: 120px;
+    height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: var(--verde);
-    box-shadow: 5px 5px 15px;
+    padding: 0 10px;
 }
 
 header ul img{
-    height: 100px;
+    height: 10vh;
     transition: 2s;
 }
-
-header ul:hover{
-    img{
-        height: 150px;
-        transition: 2s;
-    }
-    }
 
 header ul li{
     list-style: none;
@@ -59,17 +55,25 @@ header ul li{
 header ul a{
     text-decoration: none;
     color: white;
-    padding: 10px;
+    padding: 8px 12px;
     border: 2px solid black;
     border-radius: 500px;
     background-color: var(--verdeEscuro);
+    transition: 0.3s;
 }
 
-main{
-    display: flex;
-    align-items: center;
-    flex-direction: column; 
+header ul a:hover {
+    background-color: var(--verde);
+    border-color: var(--branco);
 }
+
+main {
+    margin-top: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .aranguera{
     color: var(--branco);
