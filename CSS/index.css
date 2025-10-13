@@ -1,6 +1,6 @@
 :root{
-    --verde: hsl(128, 51%, 37%);
-    --verdeEscuro: hsl(128, 51%, 25%);
+    --verde: hsl(128, 50%, 30%);
+    --verdeEscuro: hsl(128, 51%, 20%);
     --branco: white;
     --cinza: rgba(211, 211, 211, 0.25);
     --preto: black;
@@ -47,6 +47,20 @@ header ul{
     justify-content: space-around;
     align-items: center;
     background-color: var(--verde);
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border: 2px solid black;
+    border-radius: 500px;
+    background-color: var(--verdeEscuro);
+    transition: 0.5s ease;
+}
+
+.link:hover {
+    border-color: var(--branco);
 }
 
 header ul img{
@@ -258,16 +272,9 @@ figure{
     figcaption{
         color: white;
         padding: 10px;
-        border: 2px solid black;
-        border-radius: 500px;
-        background-color: var(--verdeEscuro);
         width: 250px;
         display: block;
         margin: auto;
-    }
-    a{
-        text-decoration: none;
-        padding: 8px 12px;
     }
 }
 
