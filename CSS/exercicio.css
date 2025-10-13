@@ -65,6 +65,8 @@ header ul li{
     text-decoration: none;
     color: white;
     padding: 8px 12px;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 2px solid black;
     border-radius: 500px;
     background-color: var(--verdeEscuro);

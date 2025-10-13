@@ -51,8 +51,10 @@ header ul{
     padding: 8px 12px;
     border: 2px solid black;
     border-radius: 500px;
+    font-size: 1rem;
     background-color: var(--verdeEscuro);
     transition: 0.5s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .link:hover {
@@ -284,7 +286,7 @@ figure{
     width: 100%;
 }
 
-.faq{
+#faq{
     align-items: center;
     justify-content: space-between;
     display: flex;
@@ -292,20 +294,20 @@ figure{
     width: 80%;
 }
 
-.faq div{
+#faq div{
     width: 100%;
     margin-top: 10px;
 }
 
-.faq div table{
+#faq div table{
     width: 100%;
 }
 
-.faq div table tr{
+#faq div table tr{
     height: 100px;
 }
 
-.faq div table{
+#faq div table{
     background-color: var(--cinza);
     padding: 0.5vw;
     line-height: 1.65;
