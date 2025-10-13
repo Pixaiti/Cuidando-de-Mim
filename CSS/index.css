@@ -83,14 +83,6 @@ button{
     margin: 10px;
 }
 
-header ul a{
-    text-decoration: none;
-    color: white;
-    padding: 8px 12px;
-    border: 2px solid black;
-    border-radius: 500px;
-    background-color: var(--verdeEscuro);
-}
 
 main{
     display: flex;
@@ -125,8 +117,7 @@ a{
 }
 
 #introdução{
-    margin-bottom: 50px;
-    margin-top: 100px;
+    margin-top: 10vh;
     width: 80vw;
 }
 
@@ -277,7 +268,7 @@ figure{
 }
 
 #faq{
-    margin-top: 100px;
+    margin-top: 10vh;
     width: 80%;
     display: flex;
 }
@@ -300,11 +291,17 @@ figure{
 }
 
 #faq div table{
+    border-collapse: separate;
+    border-spacing: 1vw;
     width: 100%;
 }
 
 #faq div table tr{
     height: 100px;
+}
+
+#faq div table tr td{
+    width: 20%;
 }
 
 #faq div table{
