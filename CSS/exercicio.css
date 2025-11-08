@@ -146,7 +146,6 @@ header ul li{
   
 footer{
     background-color: var(--verdeEscuro);
-    height: 310px;
     width: 100%;
     margin-top: 100px;
     display: flex;
