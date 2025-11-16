@@ -118,7 +118,7 @@ main a{
 }
 
 #introdução{
-    scroll-margin-top: 45vh;
+    scroll-margin-top: 35vh;
     margin-top: 10vh;
     width: 80vw;
 }
@@ -221,7 +221,7 @@ main a{
 }
 
 #atividades{
-    scroll-margin-top: 45vh;
+    scroll-margin-top: 35vh;
     display: grid;
     grid-template-columns: repeat(1);
     width: 80vw;
@@ -271,7 +271,7 @@ figure{
 
 #faq{
     margin-top: 10vh;
-    scroll-margin-top: 45vh;
+    scroll-margin-top: 35vh;
     width: 83%;
     display: flex;
 }
