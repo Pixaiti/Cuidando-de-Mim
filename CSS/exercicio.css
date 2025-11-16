@@ -1,4 +1,4 @@
-:root{
+:root {
     --verde: hsl(128, 50%, 30%);
     --verdeEscuro: hsl(128, 51%, 20%);
     --branco: white;
@@ -6,26 +6,26 @@
     --preto: black;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-body{
+body {
     width: 100%;
 }
 
-p{
+p {
     font-size: 1rem;
 }
 
-a{
+a {
     font-size: 1rem;
 }
 
-.titulo{
+.titulo {
     color: var(--branco);
     background-color: var(--verde);
     padding: 0.5vw;
@@ -34,16 +34,16 @@ a{
     text-align: center;
 }
 
-header{
+header {
     background-color: white;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-header ul{
+header ul {
     height: 10vh;
     display: flex;
     justify-content: space-around;
@@ -52,16 +52,16 @@ header ul{
     padding: 0 10px;
 }
 
-header ul img{
+header ul img {
     height: 10vh;
     transition: 2s;
 }
 
-header ul li{
+header ul li {
     list-style: none;
 }
 
-.link{
+.link {
     text-decoration: none;
     color: white;
     padding: 8px 12px;
@@ -77,7 +77,7 @@ header ul li{
     border-color: var(--branco);
 }
 
-button{
+button {
     position: fixed;
     cursor: pointer;
     text-decoration: none;
@@ -89,6 +89,10 @@ button{
     margin: 10px;
 }
 
+main p {
+    font-size: 1.2rem;
+}
+
 main {
     margin-top: 25vh;
     display: flex;
@@ -96,12 +100,19 @@ main {
     align-items: center;
 }
 
-header ul li{
+#videos {
+    justify-content: center;
+    margin-top: 10vh;
+    display: flex;
+    gap: 45%;
+}
+
+header ul li {
     list-style: none;
     font-size: 0.8rem;
 }
 
-.aranguera{
+.aranguera {
     color: var(--branco);
     background-color: var(--verde);
     padding: 6px;
@@ -109,12 +120,11 @@ header ul li{
     text-align: center;
 }
 
-#Importancia{
+#Importancia {
     width: 80vw;
-    box-shadow: 7px 7px 15px;
 }
 
-#Importancia p{
+#Importancia p {
     background-color: var(--cinza);
     padding: 7px;
     line-height: 1.5;
@@ -131,20 +141,21 @@ header ul li{
 .caixa {
     background-color: var(--cinza);
     width: 48%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .caixa h1 {
     background-color: var(--verde);
     color: var(--branco);
     margin-bottom: 10px;
+    padding-left: 5%;
 }
 
 .caixa p {
-    line-height: 1.4;
+    line-height: 1.5;
+    padding-left: 1%;
 }
-  
-footer{
+
+footer {
     background-color: var(--verdeEscuro);
     width: 100%;
     margin-top: 100px;
@@ -152,7 +163,7 @@ footer{
     color: white;
 }
 
-footer div{
+footer div {
     height: 100%;
     flex: 4;
     display: flex;
@@ -160,69 +171,63 @@ footer div{
     align-items: center;
 }
 
-.footer1 h1{
+.footer1 h1 {
     background-color: var(--verdeEscuro);
     margin-bottom: 25px;
 }
 
-.footer1 p{
+.footer1 p {
     margin-bottom: 25px;
 }
 
-footer div a{
+footer div a {
     color: white;
     text-decoration: none;
 }
 
-.footer2 h1{
+.footer2 h1 {
     background-color: var(--verdeEscuro);
     margin-bottom: 75px;
 }
 
-.footer2 img{
+.footer2 img {
     height: 50px;
     margin-right: 10px;
 }
 
-.footer2 ul{
+.footer2 ul {
     list-style-type: none;
 }
 
-.span1{
+.span1 {
     display: flex;
     align-items: center;
     margin-bottom: 25px;
 }
 
-.span2{
+.span2 {
     display: flex;
     align-items: center;
 }
 
-.footer3 h1{
+.footer3 h1 {
     background-color: var(--verdeEscuro);
     margin-bottom: 25px;
 }
 
-.footer3 img{
+.footer3 img {
     height: 110px;
 }
 
-.footer3 p{
+.footer3 p {
     margin-bottom: 25px;
 }
 
-.footer-img{
+.footer-img {
     display: flex;
     justify-content: center;
 }
 
-ul{
+ul {
     list-style: none;
-}
-
-#videos{
-    margin-top: 10vh;
-    display: flex;
-    gap: 10%;
 }

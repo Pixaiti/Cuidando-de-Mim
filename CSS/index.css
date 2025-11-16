@@ -93,6 +93,7 @@ main{
 }
 
 #sobre{
+    scroll-margin-top: 45vh;
     margin-top: 25vh;
     width: 80vw;
 }
@@ -102,12 +103,12 @@ main{
     transform: translateY(0px);
 }
 
-p{
-    font-size: 1rem;
+main p{
+    font-size: 1.2rem;
 }
 
-a{
-    font-size: 1rem;
+main a{
+    font-size: 1.2rem;
 }
 
 #sobre p{
@@ -117,6 +118,7 @@ a{
 }
 
 #introdução{
+    scroll-margin-top: 45vh;
     margin-top: 10vh;
     width: 80vw;
 }
@@ -219,6 +221,7 @@ a{
 }
 
 #atividades{
+    scroll-margin-top: 45vh;
     display: grid;
     grid-template-columns: repeat(1);
     width: 80vw;
@@ -242,7 +245,6 @@ a{
     line-height: 1.65;
     text-align: center;
     border-right: 11px solid var(--cinza);
-
 }
 
 figure{
@@ -269,7 +271,8 @@ figure{
 
 #faq{
     margin-top: 10vh;
-    width: 80%;
+    scroll-margin-top: 45vh;
+    width: 83%;
     display: flex;
 }
 
