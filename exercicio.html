@@ -9,15 +9,15 @@
 </head>
 
 <body>
-    
     <header>
         <ul style="background-color: transparent; height: 50px; align-items: normal; justify-content: space-between;">
             <li>
                 <h1 id="nome-site">Cuidando de Mim - Atividades e Exercícios Práticos</h1>
             </li>
             <li>
-                <div style="display: flex; width: 100%; justify-content: end;"><button id="swap"
-                        class="link">PT-BR</button></div>
+                <div style="display: flex; width: 100%; justify-content: end;">
+                    <button id="link" class="link" onclick="trocarIdioma()">PT-BR</button>
+                </div>
             </li>
         </ul>
         <ul>
@@ -27,7 +27,6 @@
             <li><a href="#ExercíciosPráticos" class="link">Exercícios Práticos</a></li>
             <li><a href="#Atividades" class="link">Atividades</a></li>
         </ul>
-
     </header>
     <main>
         <div id="Importancia">
@@ -43,45 +42,73 @@
             <div class="caixa">
                 <ul id="ExercíciosPráticos">
                     <h1 class="title">Exercícios Físicos:</h1>
-                    <li>
-                        <p><strong>Caminhada: </strong>uma atividade simples e acessível para melhorar a saúde mental.
-                        </p>
-                    </li>
-                    <li>
-                        <p><strong>Yoga: </strong>combina exercícios físicos com técnicas de respiração e meditação.</p>
-                    </li>
-                    <li>
-                        <p><strong>Dança: </strong>pode ajudar a reduzir o estresse e melhorar o humor.</p>
-                    </li>
+                    <li><strong>Caminhada:</strong> Uma atividade simples e acessível para melhorar a saúde mental.
+                        Recomenda-se 30 minutos por dia, 5 vezes por semana. Ajuda na circulação sanguínea e no controle
+                        do peso.</li>
+                    <li><strong>Yoga:</strong> Combina exercícios físicos com técnicas de respiração e meditação.
+                        Melhora a flexibilidade, reduz dores nas costas e auxilia no controle da ansiedade. Pode ser
+                        praticada por pessoas de todas as idades.</li>
+                    <li><strong>Dança:</strong> Pode ajudar a reduzir o estresse e melhorar o humor. Aumenta a
+                        coordenação motora, queima calorias e é uma excelente atividade social. Zumba, salsa e forró são
+                        ótimas opções.</li>
+                    <li><strong>Natação:</strong> Exercício de baixo impacto que trabalha todos os grupos musculares.
+                        Ideal para pessoas com problemas articulares, melhora a capacidade cardiorrespiratória e queima
+                        muitas calorias.</li>
+                    <li><strong>Musculação:</strong> Fortalece os músculos, previne osteoporose e acelera o metabolismo.
+                        Recomenda-se 3 vezes por semana, com orientação profissional para evitar lesões.</li>
+                    <li><strong>Pilates:</strong> Melhora a postura, fortalece o core e aumenta a consciência corporal.
+                        Excelente para reabilitação e prevenção de dores posturais.</li>
                 </ul>
             </div>
 
             <div class="caixa">
                 <ul id="Atividades">
-                    <h1 class title="">Exercícios Mentais:</h1>
-                    <li>
-                        <p><strong>Meditação: </strong>pode ajudar a reduzir a ansiedade e melhorar a concentração.</p>
+                    <h1 class="title">Exercícios Mentais:</h1>
+                    <li><strong>Meditação:</strong> Pode ajudar a reduzir a ansiedade e melhorar a concentração.
+                        Pratique 10-15 minutos diários. Técnicas incluem mindfulness, meditação guiada e focada na
+                        respiração.</li>
+                    <li><strong>Mindfulness:</strong> Prática que envolve estar presente no momento. Aumenta a
+                        autoconsciência, reduz o estresse e melhora a qualidade das relações interpessoais. Pode ser
+                        praticado em qualquer lugar.</li>
+                    <li><strong>Jogos de memória:</strong> Podem ajudar a melhorar a cognição e a concentração.
+                        Quebra-cabeças, sudoku, xadrez e apps de treino cerebral mantêm a mente ativa e previnem o
+                        declínio cognitivo.</li>
+                    <li><strong>Leitura:</strong> Estimula a imaginação, expande o vocabulário e reduz o estresse.
+                        Recomenda-se 20-30 minutos de leitura por dia. Livros, artigos e revistas são ótimas opções.
                     </li>
-                    <li>
-                        <p><strong>Mindfulness: </strong>prática que envolve estar presente no momento.</p>
-                    </li>
-                    <li>
-                        <p><strong>Jogos de memória: </strong>podem ajudar a melhorar a cognição e a concentração.</p>
-                    </li>
+                    <li><strong>Escrita terapêutica:</strong> Manter um diário ou escrever sobre pensamentos e emoções
+                        pode ser altamente terapêutico. Ajuda a processar eventos e organizar ideias.</li>
+                    <li><strong>Aprendizado de idiomas:</strong> Estimula novas conexões neurais, melhora a memória e
+                        abre portas para novas culturas. Use apps como Duolingo ou busque cursos online.</li>
                 </ul>
             </div>
         </div>
 
         <div id="videos">
-            <iframe width="340" height="200" src="https://www.youtube.com/embed/thS4BU4fTzI?si=TgxPNLMD0vOyQfIG"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-linha">
+                <iframe width="340" height="200" src="https://www.youtube.com/embed/thS4BU4fTzI?si=TgxPNLMD0vOyQfIG"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-            <iframe width="340" height="200" src="https://www.youtube.com/embed/UwyE_XIQ7DA?si=UC7saZOqr2NBX4JL"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="340" height="200" src="https://www.youtube.com/embed/UwyE_XIQ7DA?si=UC7saZOqr2NBX4JL"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="video-linha">
+                <iframe width="340" height="200" src="https://www.youtube.com/embed/inpok4MKVLM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe width="340" height="200" src="https://www.youtube.com/embed/v7AYKMP6rOE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
         </div>
 
     </main>
@@ -93,16 +120,19 @@
 
                 <ul>
                     <li>
-                        <p><a href="index.html" id="footer-sobre">volta</a></p>
+                        <p><a href="#sobre" id="footer-sobre">Sobre</a></p>
                     </li>
                     <li>
-                        <p><a href="#Importância" id="footer-intro">Importância</a></p>
+                        <p><a href="#introdução" id="footer-intro">Introdução</a></p>
                     </li>
                     <li>
-                        <p><a href="#ExercíciosPráticos" id="footer-ativ">Exercícios Práticos</a></p>
+                        <p><a href="#atividades" id="footer-ativ">Atividades e Exercícios Práticos</a></p>
                     </li>
                     <li>
-                        <p><a href="#Atividades">Atividades</a></p>
+                        <p><a href="#faq">FAQ</a></p>
+                    </li>
+                    <li>
+                        <p><a href="exercicio.html" id="footer-ativs">Atividades e Exercícios práticos (site)</a></p>
                     </li>
                     <li><a href="https://www.instagram.com/gustavo_picheidt" target="_blank">
                             <p style="margin-bottom: 0px;">@gustavo_picheidt</p>
@@ -144,6 +174,123 @@
         </div>
         </small>
     </footer>
+
+    <script>
+        function trocarIdioma() {
+            const botao = document.getElementById('link');
+            const idiomaAtual = botao.textContent;
+            const isPortugues = idiomaAtual === 'PT-BR';
+            const novoIdioma = isPortugues ? 'en' : 'pt-BR';
+
+            botao.textContent = isPortugues ? 'EN' : 'PT-BR';
+
+            document.getElementById('nome-site').textContent = isPortugues
+                ? 'Taking Care of Myself - Activities and Exercises'
+                : 'Cuidando de Mim - Atividades e Exercícios Práticos';
+
+            document.querySelector('.aranguera').textContent = isPortugues ? 'Importance' : 'Importância';
+
+            const titulos = document.querySelectorAll('.title');
+            if (titulos[0]) {
+                titulos[0].textContent = isPortugues ? 'Physical Exercises:' : 'Exercícios Físicos:';
+            }
+            if (titulos[1]) {
+                titulos[1].textContent = isPortugues ? 'Mental Exercises:' : 'Exercícios Mentais:';
+            }
+
+            const linksHeader = document.querySelectorAll('header .link');
+            if (linksHeader[1]) linksHeader[1].textContent = isPortugues ? 'Back' : 'Volta';
+            if (linksHeader[2]) linksHeader[2].textContent = isPortugues ? 'Importance' : 'Importância';
+            if (linksHeader[3]) linksHeader[3].textContent = isPortugues ? 'Practical Exercises' : 'Exercícios Práticos';
+            if (linksHeader[4]) linksHeader[4].textContent = isPortugues ? 'Activities' : 'Atividades';
+
+            const tituloFooter1 = document.getElementById('title-footer1');
+            const tituloFooter2 = document.getElementById('title-footer2');
+            const tituloFooter3 = document.getElementById('title-footer3');
+
+            if (tituloFooter1) tituloFooter1.textContent = isPortugues ? 'Hyperlinks' : 'Hiper links';
+            if (tituloFooter2) tituloFooter2.textContent = isPortugues ? 'Contact Us' : 'Contate-nos';
+            if (tituloFooter3) tituloFooter3.textContent = isPortugues ? 'About this site' : 'Sobre este site';
+
+            const footerVolta = document.getElementById('footer-volta');
+            const footerImportancia = document.getElementById('footer-importancia');
+            const footerExercicios = document.getElementById('footer-exercicios');
+            const footerAtividades = document.getElementById('footer-atividades');
+
+            if (footerVolta) footerVolta.textContent = isPortugues ? 'back' : 'volta';
+            if (footerImportancia) footerImportancia.textContent = isPortugues ? 'Importance' : 'Importância';
+            if (footerExercicios) footerExercicios.textContent = isPortugues ? 'Practical Exercises' : 'Exercícios Práticos';
+            if (footerAtividades) footerAtividades.textContent = isPortugues ? 'Activities' : 'Atividades';
+
+            const text1Footer3 = document.getElementById('text1-footer3');
+            const text2Footer3 = document.getElementById('text2-footer3');
+
+            if (text1Footer3) {
+                text1Footer3.textContent = isPortugues
+                    ? 'Code developed by the authors.'
+                    : 'Código desenvolvido pelos autores.';
+            }
+
+            if (text2Footer3) {
+                text2Footer3.textContent = isPortugues
+                    ? 'Images and texts from third parties, used for educational purposes only.'
+                    : 'Imagens e textos de terceiros, usados apenas para fins educacionais.';
+            }
+
+            const textoImportancia = document.querySelector('#Importancia p');
+            if (textoImportancia) {
+                textoImportancia.textContent = isPortugues
+                    ? 'Physical activities are crucial for mental health, acting as a "natural antidepressant" by reducing stress and anxiety, improving mood, increasing self-confidence and concentration. By releasing endorphins, hormones associated with well-being, physical exercise improves sleep quality, memory and learning ability, in addition to promoting social interactions and discipline. Practical activities, especially those involving socialization, such as team sports, are also beneficial by stimulating social skills and teamwork.'
+                    : 'As atividades físicas são cruciais para a saúde mental, atuando como um "antidepressivo natural" ao reduzir o estresse e a ansiedade, melhorar o humor, aumentar a autoconfiança e a concentração. Ao liberar endorfinas, hormônios associados ao bem-estar, o exercício físico melhora a qualidade do sono, a memória e a capacidade de aprendizado, além de promover interações sociais e disciplina. Atividades práticas, especialmente as que envolvem socialização, como esportes coletivos, também são benéficas por estimular habilidades sociais e o trabalho em equipe.';
+            }
+
+            if (isPortugues) {
+                const listaFisicos = document.querySelector('#ExercíciosPráticos');
+                if (listaFisicos) {
+                    const itensFisicos = listaFisicos.querySelectorAll('li');
+                    if (itensFisicos[0]) itensFisicos[0].innerHTML = '<strong>Walking:</strong> A simple and accessible activity to improve mental health. Recommended 30 minutes per day, 5 times a week. Helps blood circulation and weight control.';
+                    if (itensFisicos[1]) itensFisicos[1].innerHTML = '<strong>Yoga:</strong> Combines physical exercises with breathing and meditation techniques. Improves flexibility, reduces back pain and helps control anxiety. Can be practiced by people of all ages.';
+                    if (itensFisicos[2]) itensFisicos[2].innerHTML = '<strong>Dance:</strong> Can help reduce stress and improve mood. Increases motor coordination, burns calories and is an excellent social activity. Zumba, salsa and forró are great options.';
+                    if (itensFisicos[3]) itensFisicos[3].innerHTML = '<strong>Swimming:</strong> Low-impact exercise that works all muscle groups. Ideal for people with joint problems, improves cardiorespiratory capacity and burns many calories.';
+                    if (itensFisicos[4]) itensFisicos[4].innerHTML = '<strong>Weight Training:</strong> Strengthens muscles, prevents osteoporosis and accelerates metabolism. Recommended 3 times a week, with professional guidance to avoid injuries.';
+                    if (itensFisicos[5]) itensFisicos[5].innerHTML = '<strong>Pilates:</strong> Improves posture, strengthens the core and increases body awareness. Excellent for rehabilitation and prevention of postural pain.';
+                }
+
+                const listaMentais = document.querySelector('#Atividades');
+                if (listaMentais) {
+                    const itensMentais = listaMentais.querySelectorAll('li');
+                    if (itensMentais[0]) itensMentais[0].innerHTML = '<strong>Meditation:</strong> Can help reduce anxiety and improve concentration. Practice 10-15 minutes daily. Techniques include mindfulness, guided meditation and breath-focused meditation.';
+                    if (itensMentais[1]) itensMentais[1].innerHTML = '<strong>Mindfulness:</strong> Practice that involves being present in the moment. Increases self-awareness, reduces stress and improves the quality of interpersonal relationships. Can be practiced anywhere.';
+                    if (itensMentais[2]) itensMentais[2].innerHTML = '<strong>Memory Games:</strong> Can help improve cognition and concentration. Puzzles, sudoku, chess and brain training apps keep the mind active and prevent cognitive decline.';
+                    if (itensMentais[3]) itensMentais[3].innerHTML = '<strong>Reading:</strong> Stimulates imagination, expands vocabulary and reduces stress. Recommended 20-30 minutes of reading per day. Books, articles and magazines are great options.';
+                    if (itensMentais[4]) itensMentais[4].innerHTML = '<strong>Therapeutic Writing:</strong> Keeping a journal or writing about thoughts and emotions can be highly therapeutic. Helps process events and organize ideas.';
+                    if (itensMentais[5]) itensMentais[5].innerHTML = '<strong>Language Learning:</strong> Stimulates new neural connections, improves memory and opens doors to new cultures. Use apps like Duolingo or seek online courses.';
+                }
+            } else {
+                const listaFisicos = document.querySelector('#ExercíciosPráticos');
+                if (listaFisicos) {
+                    const itensFisicos = listaFisicos.querySelectorAll('li');
+                    if (itensFisicos[0]) itensFisicos[0].innerHTML = '<strong>Caminhada:</strong> Uma atividade simples e acessível para melhorar a saúde mental. Recomenda-se 30 minutos por dia, 5 vezes por semana. Ajuda na circulação sanguínea e no controle do peso.';
+                    if (itensFisicos[1]) itensFisicos[1].innerHTML = '<strong>Yoga:</strong> Combina exercícios físicos com técnicas de respiração e meditação. Melhora a flexibilidade, reduz dores nas costas e auxilia no controle da ansiedade. Pode ser praticada por pessoas de todas as idades.';
+                    if (itensFisicos[2]) itensFisicos[2].innerHTML = '<strong>Dança:</strong> Pode ajudar a reduzir o estresse e melhorar o humor. Aumenta a coordenação motora, queima calorias e é uma excelente atividade social. Zumba, salsa e forró são ótimas opções.';
+                    if (itensFisicos[3]) itensFisicos[3].innerHTML = '<strong>Natação:</strong> Exercício de baixo impacto que trabalha todos os grupos musculares. Ideal para pessoas com problemas articulares, melhora a capacidade cardiorrespiratória e queima muitas calorias.';
+                    if (itensFisicos[4]) itensFisicos[4].innerHTML = '<strong>Musculação:</strong> Fortalece os músculos, previne osteoporose e acelera o metabolismo. Recomenda-se 3 vezes por semana, com orientação profissional para evitar lesões.';
+                    if (itensFisicos[5]) itensFisicos[5].innerHTML = '<strong>Pilates:</strong> Melhora a postura, fortalece o core e aumenta a consciência corporal. Excelente para reabilitação e prevenção de dores posturais.';
+                }
+
+                const listaMentais = document.querySelector('#Atividades');
+                if (listaMentais) {
+                    const itensMentais = listaMentais.querySelectorAll('li');
+                    if (itensMentais[0]) itensMentais[0].innerHTML = '<strong>Meditação:</strong> Pode ajudar a reduzir a ansiedade e melhorar a concentração. Pratique 10-15 minutos diários. Técnicas incluem mindfulness, meditação guiada e focada na respiração.';
+                    if (itensMentais[1]) itensMentais[1].innerHTML = '<strong>Mindfulness:</strong> Prática que envolve estar presente no momento. Aumenta a autoconsciência, reduz o estresse e melhora a qualidade das relações interpessoais. Pode ser praticado em qualquer lugar.';
+                    if (itensMentais[2]) itensMentais[2].innerHTML = '<strong>Jogos de memória:</strong> Podem ajudar a melhorar a cognição e a concentração. Quebra-cabeças, sudoku, xadrez e apps de treino cerebral mantêm a mente ativa e previnem o declínio cognitivo.';
+                    if (itensMentais[3]) itensMentais[3].innerHTML = '<strong>Leitura:</strong> Estimula a imaginação, expande o vocabulário e reduz o estresse. Recomenda-se 20-30 minutos de leitura por dia. Livros, artigos e revistas são ótimas opções.';
+                    if (itensMentais[4]) itensMentais[4].innerHTML = '<strong>Escrita terapêutica:</strong> Manter um diário ou escrever sobre pensamentos e emoções pode ser altamente terapêutico. Ajuda a processar eventos e organizar ideias.';
+                    if (itensMentais[5]) itensMentais[5].innerHTML = '<strong>Aprendizado de idiomas:</strong> Estimula novas conexões neurais, melhora a memória e abre portas para novas culturas. Use apps como Duolingo ou busque cursos online.';
+                }
+            }
+        }
+    </script>
 </body>
 
 </html>
