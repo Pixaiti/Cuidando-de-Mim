@@ -13,6 +13,14 @@
     font-family: sans-serif;
 }
 
+#ExercíciosPráticos{
+    scroll-margin-top: 35vh;
+}
+
+#Atividades{
+    scroll-margin-top: 35vh;
+}
+
 body{
     width: 100%;
     padding-top: 10vh;
@@ -80,12 +88,13 @@ main{
     width: 100%;
 }
 
-#Importancia{
+#Importância{
+    scroll-margin-top: 35vh;
     margin-top: 10vh;
     width: 80vw;
 }
 
-#Importancia p{
+#Importância p{
     background-color: var(--cinza);
     padding: 15px;
     line-height: 1.65;
@@ -251,4 +260,16 @@ footer div a{
 
 .link:hover {
     border-color: var(--branco);
+}
+
+.reveal{
+    opacity: 0;
+    transform: translateY(20vh);
+    transition: all 0.8s ease;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 0;
 }
