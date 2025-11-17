@@ -31,7 +31,8 @@
     <main>
         <div id="Importância" class="reveal">
             <h1 class="aranguera">Importância</h1>
-            <p>As atividades físicas são cruciais para a saúde mental, atuando como um "antidepressivo natural" ao
+            <p id="imp-txt">As atividades físicas são cruciais para a saúde mental, atuando como um "antidepressivo
+                natural" ao
                 reduzir o estresse e a ansiedade, melhorar o humor, aumentar a autoconfiança e a concentração. Ao
                 liberar endorfinas, hormônios associados ao bem-estar, o exercício físico melhora a qualidade do sono, a
                 memória e a capacidade de aprendizado, além de promover interações sociais e disciplina. Atividades
@@ -207,6 +208,7 @@
             }
 
             const linksHeader = document.querySelectorAll('header .link');
+            if (linksHeader[1]) linksHeader[1].textContent = isPortugues ? 'Back' : 'Volta';
             if (linksHeader[2]) linksHeader[2].textContent = isPortugues ? 'Importance' : 'Importância';
             if (linksHeader[3]) linksHeader[3].textContent = isPortugues ? 'Practical Exercises' : 'Exercícios Práticos';
             if (linksHeader[4]) linksHeader[4].textContent = isPortugues ? 'Activities' : 'Atividades';
@@ -257,6 +259,13 @@
             const textoImportancia = document.querySelector('#Importancia p');
             if (textoImportancia) {
                 textoImportancia.textContent = isPortugues
+                    ? 'Physical activities are crucial for mental health, acting as a "natural antidepressant" by reducing stress and anxiety, improving mood, increasing self-confidence and concentration. By releasing endorphins, hormones associated with well-being, physical exercise improves sleep quality, memory and learning ability, in addition to promoting social interactions and discipline. Practical activities, especially those involving socialization, such as team sports, are also beneficial by stimulating social skills and teamwork.'
+                    : 'As atividades físicas são cruciais para a saúde mental, atuando como um "antidepressivo natural" ao reduzir o estresse e a ansiedade, melhorar o humor, aumentar a autoconfiança e a concentração. Ao liberar endorfinas, hormônios associados ao bem-estar, o exercício físico melhora a qualidade do sono, a memória e a capacidade de aprendizado, além de promover interações sociais e disciplina. Atividades práticas, especialmente as que envolvem socialização, como esportes coletivos, também são benéficas por estimular habilidades sociais e o trabalho em equipe.';
+            }
+
+            const impTxt = document.getElementById('imp-txt');
+            if (impTxt) {
+                impTxt.textContent = isPortugues
                     ? 'Physical activities are crucial for mental health, acting as a "natural antidepressant" by reducing stress and anxiety, improving mood, increasing self-confidence and concentration. By releasing endorphins, hormones associated with well-being, physical exercise improves sleep quality, memory and learning ability, in addition to promoting social interactions and discipline. Practical activities, especially those involving socialization, such as team sports, are also beneficial by stimulating social skills and teamwork.'
                     : 'As atividades físicas são cruciais para a saúde mental, atuando como um "antidepressivo natural" ao reduzir o estresse e a ansiedade, melhorar o humor, aumentar a autoconfiança e a concentração. Ao liberar endorfinas, hormônios associados ao bem-estar, o exercício físico melhora a qualidade do sono, a memória e a capacidade de aprendizado, além de promover interações sociais e disciplina. Atividades práticas, especialmente as que envolvem socialização, como esportes coletivos, também são benéficas por estimular habilidades sociais e o trabalho em equipe.';
             }
